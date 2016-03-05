@@ -5,8 +5,8 @@
     <groupId>me.raynorjames</groupId>
     <artifactId>CraftRoyale</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <name>CraftRoyale</name>
+    <version>0.1-SNAPSHOT</version>
+    <name>me.raynorjames.CraftRoyale</name>
 
     <build>
         <resources>
@@ -28,7 +28,7 @@
             </plugins>
         </pluginManagement>
     </build>
-    
+
     <repositories>
         <repository>
             <id>spigot-repo</id>

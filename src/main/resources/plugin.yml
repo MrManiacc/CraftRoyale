@@ -1,0 +1,7 @@
+name: CraftRoyale
+version: 0.1-SNAPSHOT
+main: me.raynorjames.CraftRoyale
+description: A minecraft equivalent of https://clashroyale.com/
+commands:
+   arena:
+      description: The CraftRoyale arena managing command, see /arena help

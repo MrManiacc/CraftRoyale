@@ -1,8 +1,8 @@
-# CraftRoyale | 0.0.1
+# me.raynorjames.CraftRoyale | 0.0.1
 A minecraft equivalent of https://clashroyale.com/
 
 #Description
-CraftRoyale is a upcoming project that aims to be the next popular pass time for many minecraft players. It's goal is to provide a unique experience similar to that of the [ClashRoyale](https://itunes.apple.com/nz/app/clash-royale/id1053012308?mt=8) app. It is a [Spigot](http://www.spigotmc.org/) plugin. The main aim of this project is to make it simple for server administrators and fun for players. 
+me.raynorjames.CraftRoyale is a upcoming project that aims to be the next popular pass time for many minecraft players. It's goal is to provide a unique experience similar to that of the [ClashRoyale](https://itunes.apple.com/nz/app/clash-royale/id1053012308?mt=8) app. It is a [Spigot](http://www.spigotmc.org/) plugin. The main aim of this project is to make it simple for server administrators and fun for players.
 
 # Developers
 
@@ -12,9 +12,10 @@ CraftRoyale is a upcoming project that aims to be the next popular pass time for
 
 # Commands and Permissions
 ### Administrators commands:
-* /arena start - start the creation process of an arena
-* /arena set **[component]**  - sets the specified **[component]** to the world edit selection
-* /arena finish - finish the creation process of an arena
+* /arena start - start the creation process of an arena.
+* /arena set **[component]**  - sets the specified **[component]** to the world edit selection.
+* /arena finish - finish the creation process of an arena.
+* /arena help - list help for arena command.
 
 # Arena Component **[component]**
 * ENTIRE_SELECTION - component for the entire arena selection. (required)
