@@ -5,3 +5,7 @@ description: A minecraft equivalent of https://clashroyale.com/
 commands:
    arena:
       description: The CraftRoyale arena managing command, see /arena help
+   royale:
+      description: The player command for managing cards and games, see /royale help
+   clan:
+      description: The player command for manaing your clan, see /clan help

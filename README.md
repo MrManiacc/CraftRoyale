@@ -11,11 +11,26 @@ me.raynorjames.CraftRoyale is a upcoming project that aims to be the next popula
 
 
 # Commands and Permissions
-### Administrators commands:
+### Administrators commands *(subject to change)*:
 * /arena start - start the creation process of an arena.
 * /arena set **[component]**  - sets the specified **[component]** to the world edit selection.
 * /arena finish - finish the creation process of an arena.
 * /arena help - list help for arena command.
+
+### Player commands *(subject to change)*:
+* /royale cards - edit your cards.
+* /roayle manage - upgrade your cards.
+* /royale purchase - purchase more gems/gold.
+* /royale battle - start search for a battle.
+* /royale help - list help for royale.
+* /clan chat - switch chat focus between your clan and global.
+* /clan join (name) - join a clan with specified name.
+* /clan list - list available clans to join.
+* /clan leave - leaves your current clan.
+* /clan help - list help for clan command.
+* /clan create - create a clan.
+* /clan promote (player) - promotes a player in your clan.
+
 
 # Arena Component **[component]**
 * ENTIRE_SELECTION - component for the entire arena selection. (required)
