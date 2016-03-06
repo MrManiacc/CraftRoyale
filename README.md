@@ -9,7 +9,6 @@ me.raynorjames.CraftRoyale is a upcoming project that aims to be the next popula
 * [MrManiacc](https://github.com/MrManiacc) - Lead Developer
 
 
-
 # Commands and Permissions
 ### Administrators commands *(subject to change)*:
 * /arena start - start the creation process of an arena.
@@ -30,6 +29,7 @@ me.raynorjames.CraftRoyale is a upcoming project that aims to be the next popula
 * /clan help - list help for clan command.
 * /clan create - create a clan.
 * /clan promote (player) - promotes a player in your clan.
+* /clan demote (player) - demotes a player in your clan.
 
 
 # Arena Component **[component]**
@@ -44,5 +44,5 @@ me.raynorjames.CraftRoyale is a upcoming project that aims to be the next popula
 * BLUE_LEFT_TOWER - component for the blue side's left tower. (required)
 * RED_RIGHT_TOWER - component for the red side's right tower. (required)
 * BLUE_RIGHT_TOWER - component for the blue side's right tower. (required)
-* SPECATOR_SPAWN - component for the spectator spawn. (optional)
+* SPECTATOR_SPAWN - component for the spectator spawn. (optional)
 * ARENA_LEVEL (level) - component to set arena level from 1 to 8 if not set defaults to 1. (optional)

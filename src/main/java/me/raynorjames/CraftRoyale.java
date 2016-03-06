@@ -1,5 +1,8 @@
 package me.raynorjames;
 
+import me.raynorjames.commands.ArenaCommand;
+import me.raynorjames.commands.ClanCommand;
+import me.raynorjames.commands.RoyaleCommand;
 import me.raynorjames.lib.Database;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -11,18 +14,18 @@ public class CraftRoyale extends JavaPlugin {
 
     public void onEnable() {
 
-        this.establishSql();
+        /*this.establishSql();*/
 
         //Command registry
-        this.getCommand("arena").setExecutor(null);
-        this.getCommand("royale").setExecutor(null);
-        this.getCommand("clan").setExecutor(null);
+        this.getCommand("arena").setExecutor(new ArenaCommand());
+        this.getCommand("royale").setExecutor(new RoyaleCommand());
+        this.getCommand("clan").setExecutor(new ClanCommand());
         //Event registry
-        
+
     }
 
     public void onDisable() {
-        database.disconnect();
+        /*database.disconnect();*/
     }
 
     private void establishSql() {
